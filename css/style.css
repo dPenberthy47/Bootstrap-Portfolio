@@ -1,196 +1,208 @@
 @font-face {
-    font-family: Moon;
-    src: url(../Fonts/MOON-2.0/MOON-2.0-FREE/Moon2.0-Regular.otf);
+  font-family: Moon;
+  src: url(../Fonts/MOON-2.0/MOON-2.0-FREE/Moon2.0-Regular.otf);
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url("../images/ios-linen/ios-linen.jpg");
-    font-family: Moon;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/ios-linen/ios-linen.jpg");
+  font-family: Moon;
 }
 
-
 header {
-    border-bottom: solid 5px grey;
-    background: lightgray;
-    margin-bottom: 20px;
-    padding: 2.5px 0;
-    height: 80px;
+  border-bottom: solid 5px grey;
+  background: lightgray;
+  margin-bottom: 20px;
+  padding: 2.5px 0;
+  height: 80px;
 }
 
 #header_content {
-    align-content: center;
-    margin: 0 8%;
-    height: 72px;
+  align-content: center;
+  margin: 0 8%;
+  height: 72px;
 }
 
 #myName {
-    background: teal;
-    color: white;
-    float: left;
-    height: 72px;
-    border: 1px solid black;
-    padding-right: 20px;
-    padding-left: 20px;
+  background: #800000;
+  color: white;
+  float: left;
+  height: 72px;
+  border: 1px solid black;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .nav {
-    float: right;
-   
+  float: right;
 }
 nav p {
-    display: inline;
-    padding: 0 10px;
+  display: inline;
+  padding: 0 10px;
 }
 
 .navOption {
-    display: inline;
-    padding: 0 10px;
-    text-decoration: none;
+  display: inline;
+  padding: 0 10px;
+  text-decoration: none;
 }
 
 a:link {
-    color: teal;
+  color: #000080;
 }
 
 a:visited {
-    color: teal;
+  color: #000080;
 }
 
 a:hover {
-    font-size: 20px;
-    color: black;
+  font-size: 20px;
+  color: black;
 }
 
 #container {
-    margin-top: 20px;
-    overflow: auto;
-    align-content: center;
-    background: grey;
-    margin: 0 10%;
+  margin-top: 20px;
+  overflow: auto;
+  align-content: center;
+  background: grey;
+  margin: 0 10%;
 }
 
 .col-sm-10 {
-    width: 84%;
-    background: white;
-    border: black solid 1px;
-    margin-bottom: 100px;
-    align-content: center;
-    margin-left: 8%;
-    margin-right: 8%;
-    line-height: 140%;
+  width: 84%;
+  background: white;
+  border: black solid 1px;
+  margin-bottom: 100px;
+  align-content: center;
+  margin-left: 8%;
+  margin-right: 8%;
+  line-height: 140%;
+}
+
+/*paper effect*/
+main {
+  background: #fff;
+  box-shadow:
+      /* The top layer shadow */ 0 2px 2px rgba(0, 0, 0, 0.15),
+    /* The second layer */ 0 10px 0 -5px #eee,
+    /* The second layer shadow */ 0 10px 1px -4px rgba(0, 0, 0, 0.15),
+    /* The third layer */ 0 20px 0 -10px #eee,
+    /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  /* Padding for demo purposes */
+  padding: 30px;
+  border: solid black 1px;
 }
 
 main h1 {
-    margin-left: 20px;
-    color: teal;
+  margin-left: 20px;
+  color: #000080;
 }
 
 main hr {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 img {
-    width: 15%;
-    float: left;
-    padding-left: 20px;
-    padding-right: 20px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .img-fluid {
-    width:175px;
-    height:150px;
+  width: 175px;
+  height: 150px;
 }
 
 #paragraph {
-    width: 60%;
-    float: left;
-    margin-bottom: 50px;
+  width: 60%;
+  float: left;
+  margin-bottom: 50px;
 }
 
 #contactMe form {
-    align-content: center;
-    margin: 20px;
+  align-content: center;
+  margin: 20px;
 }
 
 #messageBox {
-    height:100px;
-    width: 300px;
-    margin-bottom: 20px;
+  height: 100px;
+  width: 300px;
+  margin-bottom: 20px;
 }
 
 .second-row {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #main-info {
-    margin-bottom: 40px
-}
-
-table {
-    margin-bottom: 20px;
-    width: 66%;
+  margin-bottom: 40px;
 }
 
 #optionInfo {
-    color: white; background: teal;
+  color: white;
+  background: teal;
 }
 
-td img{
-    height: 200px;
-    width: 300px;
-    margin-bottom: 20px;
-}
-
-td p {
-    position: absolute;
-    bottom: 10px;
-
-}
-
-.textBox h6 {
-    position: absolute;
-    bottom: 20px;
-    color: white;
-    background: teal;
-    width: 260px;
-    height: 30px;
-    z-index: 10;
-    margin-left: 20px;
-    text-align: center;
-    font-size: 20px;
+#portfolio {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
 footer {
-    padding: 15px 0;
-    background: gray;
-    color: white;
-    border-top: teal 5px solid;
-    text-align: center;
-    width: 100%;
+  padding: 15px 0;
+  background: gray;
+  color: white;
+  border-top: teal 5px solid;
+  text-align: center;
+  width: 100%;
+}
+h2 {
+  padding: 70px 0 0;
+}
+
+.portfolioDescriptions {
+  margin-right: 20px;
+}
+
+#project {
+  width: 450px;
+  height: 450px;
+  margin: 20px 80px 20px 0;
+  border-radius: 50%;
+  padding-right: 0;
+}
+
+#contactInfo {
+  text-align: center;
+}
+
+.fab,
+.fas {
+  font-size: 3em;
 }
 
 @media screen and (max-width: 400px) {
-    header {
-        height: 150px;
-        width: 100%;
-        text-align: center;
-    }
-    .nav-item {
-        
-        float: left;
-        margin-left: 8%;
-        margin-right: 8%;
-        display: block;
-    }
-    #myName {
-        float: left;
-        margin-left: 8%;
-        margin-right: 8%;
-        display: block;
-        margin-bottom: 20px;
-    }
+  header {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-item {
+    float: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: block;
+  }
+  #myName {
+    float: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
